@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "data": {
+    "id": 1,
+    "slug": "Home page",
+    "sections": [
+      {
+        "id": 1,
+        "section_name": "Hero",
+        "title": "Mulai transformasi digital bersama kami",
+        "description": "kami mampu mentransformasikan bisnis menjadi digital. Dengan teknologi canggih dan keahlian kami, kami membimbing Anda melalui setiap langkah perjalanan transformasi digital Anda. Tim profesional berpengalaman kami membantu Anda memanfaatkan peluang tak terbatas yang ditawarkan oleh lanskap digital, memastikan transisi yang lancar dan hasil yang terukur.",
+        "buttons": [
+          {
+            "id": 1,
+            "name": "Hubungi Kami",
+            "link": "/about",
+            "type": "action"
+          }
+        ],
+        "image": {
+          "large": "hero_banner.webp",
+          "small": "hero_banner_sm.webp"
+        }
+      },
+      {
+        "id": 2,
+        "section_name": "About",
+        "title": "Kami adalah Tim Profesional yang akan membantu Anda bertransformasi",
+        "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+        "image": {
+          "large": "devices.webp",
+          "small": "devices_sm.webp"
+        }
+      },
+      {
+        "id": 4,
+        "section_name": "ColumnWithGridList",
+        "title": "Layanan Kami",
+        "description": "Keberhasilan, Kualitas dan Kepuasan Klien adalah prioritas utama kami. Kami menawarkan layanan yang dapat membantu Anda dalam bertransformasi digital.",
+        "grid_items": [
+          {
+            "title": "Web Development",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            },
+            "buttons": [
+              {
+                "id": 1,
+                "name": "Lihat Detail",
+                "link": "/about",
+                "type": "action"
+              }
+            ]
+          },
+          {
+            "title": "Mobile App Development",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            },
+             "buttons": [
+              {
+                "id": 1,
+                "name": "Lihat Detail",
+                "link": "/about",
+                "type": "action"
+              }
+            ]
+          },
+          {
+            "title": "Integrasi Sistem",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            },
+            "buttons": [
+              {
+                "id": 1,
+                "name": "Lihat Detail",
+                "link": "/about",
+                "type": "action"
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "section_name": "ColumnWithGridList",
+        "title": "Portofolio Kami",
+        "description": "Kami telah membantu ratusan klien yang ingin bertransformasi digital. Lihat beberapa karya terbaik kami.",
+        "grid_items": [
+          {
+            "title": "App A",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            }
+          },
+          {
+            "title": "App B",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            }
+          },
+          {
+            "title": "App C",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            }
+          },
+          {
+            "title": "App D",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            }
+          },
+          {
+            "title": "App E",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            }
+          },
+          {
+            "title": "App F",
+            "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+            "image": {
+              "large": "devices.webp",
+              "small": "devices_sm.webp"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "section_name": "ColumnWithImage",
+        "title": "Kami adalah Tim Profesional yang akan membantu Anda bertransformasi",
+        "description": "Kami percaya bahwa transformasi digital merupakan langkah penting yang dibutuhkan perusahaan dalam membangun sebuah bisnis yang sukses. Situs Web, Aplikasi Web dan Aplikasi Seluler yang menarik dan mudah digunakan, akan menambah nilai jual perusahaan Anda sehingga dapat terkoneksi dengan mudah dengan dunia luar.",
+        "image": {
+          "large": "devices.webp",
+          "small": "devices_sm.webp"
+        }
+      }
+    ]
+  }
+}
