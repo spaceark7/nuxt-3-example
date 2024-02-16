@@ -35,14 +35,12 @@
         <Button
           label="Hubungi kami"
           :outlined="scrollYPos < 20"
-          class="tw-text-white tw-h-fit tw-rounded-full tw-border-white"
-          :class="scrollYPos > 20 ? 'tw-bg-white tw-text-black' : ''"
-          :pt="{
-            root: {
-              'tw-bg-white': scrollYPos > 20,
-              'tw-text-black': scrollYPos > 20
-            }
-          }" />
+          class="tw-h-fit tw-rounded-full"
+          :class="
+            scrollYPos > 20
+              ? 'tw-bg-white tw-text-black'
+              : 'tw-text-white tw-border-white'
+          " />
       </div>
     </div>
   </div>

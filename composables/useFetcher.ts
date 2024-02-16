@@ -1,5 +1,3 @@
-import type { Content } from '~/types/content'
-import type { ResponseType } from '~/types/response'
 
 const useFetcher = async <T>(endpoint: any, slug: any) => {
   const config = useRuntimeConfig()

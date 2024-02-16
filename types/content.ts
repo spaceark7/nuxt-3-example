@@ -1,14 +1,14 @@
-export interface Content {
-  data: Datum[]
+export interface PagesContent {
+  data: Page[]
   meta: Meta
 }
 
-export interface Datum {
+export interface Page {
   id: number
-  attributes: PurpleAttributes
+  attributes: PageAttributes
 }
 
-export interface PurpleAttributes {
+export interface PageAttributes {
   shortName: string
   slug: string
   heading: string
@@ -26,7 +26,7 @@ export interface ContentSection {
   __component: string
   title: string
   description: DescriptionElement[] | string
-  picture?: ShareImage
+  picture: ShareImage
   buttons?: Button[]
 }
 
@@ -40,10 +40,17 @@ export interface Button {
 
 export interface DescriptionElement {
   type: string
-  children: Child[]
+  children: DescriptionChild[]
+  format?: string
 }
 
-export interface Child {
+export interface DescriptionChild {
+  text?: string
+  type: string
+  children?: ChildChild[]
+}
+
+export interface ChildChild {
   text: string
   type: string
 }

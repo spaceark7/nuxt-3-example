@@ -25,7 +25,7 @@
                 :to="button.url"
                 class="tw-no-underline">
                 <Button
-                  class="tw-rounded-full"
+                  class="tw-rounded-full tw-bg-gradient-to-r tw-from-dark-primary tw-to-orange-500"
                   size="large"
                   :label="button.text" />
               </NuxtLink>
