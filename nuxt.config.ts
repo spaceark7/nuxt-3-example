@@ -4,7 +4,17 @@ import path from 'path'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css', '~/themes/custom/theme.css'],
-  modules: ['nuxt-primevue', '@nuxtjs/strapi'],
+  modules: [
+    'nuxt-primevue',
+    '@nuxtjs/strapi',
+    [
+      '@vee-validate/nuxt',
+      {
+        // vee-validate options
+        autoImports: true
+      }
+    ]
+  ],
   strapi: {
     url: process.env.NUXT_STRAPI_URL || 'http://localhost:1337',
     prefix: '/api',
@@ -31,7 +41,7 @@ export default defineNuxtConfig({
     }
   ],
   imports: {
-    dirs: ['composables/**']
+    dirs: ['composables/**', 'utils/**']
   },
   runtimeConfig: {
     strapi: {

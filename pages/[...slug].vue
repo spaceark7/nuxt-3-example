@@ -14,12 +14,13 @@
   const route = useRoute()
   const slug = route.params
 
+  console.log('slug', slug.slug)
+
   const content = await find<PageAttributes>('pages', {
     filters: {
       slug: !slug.slug ? 'home-ret' : slug.slug
     }
   })
-
 
   // optional
   useHead(() => {
